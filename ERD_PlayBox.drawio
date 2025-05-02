@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Страница — 1" id="_uF8TN9GkoOc7FYhAQVd">
-    <mxGraphModel dx="488" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="580" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -300,6 +300,20 @@
         <mxCell id="4VEDjEmkF4Wl-3KHhdz3-88" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;(product_id, category_id)&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="4VEDjEmkF4Wl-3KHhdz3-86">
           <mxGeometry x="44" width="176" height="30" as="geometry">
             <mxRectangle width="176" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4VEDjEmkF4Wl-3KHhdz3-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="4VEDjEmkF4Wl-3KHhdz3-16" target="4VEDjEmkF4Wl-3KHhdz3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VEDjEmkF4Wl-3KHhdz3-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERoneToMany;startFill=0;endArrow=ERmandOne;endFill=0;" edge="1" parent="1" source="4VEDjEmkF4Wl-3KHhdz3-83" target="4VEDjEmkF4Wl-3KHhdz3-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4VEDjEmkF4Wl-3KHhdz3-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="4VEDjEmkF4Wl-3KHhdz3-80" target="4VEDjEmkF4Wl-3KHhdz3-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="255" />
+              <mxPoint x="410" y="485" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
