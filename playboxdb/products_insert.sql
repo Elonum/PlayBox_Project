@@ -78,3 +78,32 @@ SELECT
   ins.product_id,
   (SELECT category_id FROM categories WHERE name = 'Ролевые игры')
 FROM ins;
+
+-- 4) Кукла Mattel Monster High
+WITH ins AS (
+  INSERT INTO products
+    (name, price, color, width_cm, height_cm, weight_g, description, quantity_in_stock, image_url)
+  VALUES
+    (
+      'Кукла Mattel Monster High HYV90',
+      2694.00,
+      'разноцветный',
+      5,
+      28,
+      450,
+      'Коллекционная кукла Monster High Operetta — уникальное издание создано для любителей стилей рокабилли и ретро. Оперетта, дочь легендарного Призрака Оперы, возвращается во всей своей красе. Эта необычная кукла восхищает изысканными деталями, отсылающими к эстетике пятидесятых годов, — ее характерным стилем, сочетающим винтажную элегантность с темной, жуткой атмосферой.',
+      50,
+      'https://drive.google.com/file/d/1x-Ez1lbqReG5MAxQdgtR-Zzzk6Odubk8/view?usp=sharing'
+    )
+  RETURNING product_id
+)
+INSERT INTO products_categories (product_id, category_id)
+SELECT
+  ins.product_id,
+  c.category_id
+FROM ins
+CROSS JOIN LATERAL (
+  VALUES
+    ((SELECT category_id FROM categories WHERE name = 'Куклы и аксессуары')),
+    ((SELECT category_id FROM categories WHERE name = 'Ролевые игры'))
+) AS c(category_id);
