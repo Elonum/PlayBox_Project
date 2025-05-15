@@ -16,7 +16,7 @@ WITH ins AS (
       970,
       'LEGO Harry Potter 76414 «Экспекто патронум» — набор, который позволяет воссоздать сцену из мира Гарри Поттера, где герой использует заклинание «Экспекто патронум», чтобы вызвать своего волшебного покровителя и защититься от дементоров.',
       300,
-      'https://drive.google.com/uc?export=download&id=1_fGwu0cbxS1x6czUpVa8COaI_UpXi3Bf'
+      'https://msk.toys/upload/iblock/bb3/4oawnrhmpqs38j5j32ovf00ehswhbjuk.jpg'
     )
   RETURNING product_id
 )
@@ -45,7 +45,7 @@ WITH ins AS (
       500,
       NULL,
       550,
-      'https://drive.google.com/uc?export=download&id=13iDD4U-yvCDmli9yDLeUVkiBSk6Sp2wM'
+      'https://ae04.alicdn.com/kf/Hc6d29335b9b64f3e8277e1cd7be01912A.jpg'
     )
   RETURNING product_id
 )
@@ -69,7 +69,7 @@ WITH ins AS (
       400,
       'Набор доктора RABBIT (13 предметов) на батарейках в розовом чемоданчике – это замечательный подарок для девочек в возрасте от 7 до 14 лет, которые любят играть в доктора. Набор включает в себя 13 предметов, выполненных из качественного пластика, что гарантирует их долговечность и безопасность для детей. Розовый цвет делает набор ярким и привлекательным для девочек.',
       150,
-      'https://drive.google.com/uc?export=download&id=1Qxpbcm8-v8i1xYJfoJkLXN1LbGMYo0P1'
+      'https://cdn1.ozone.ru/s3/multimedia-2/c600/6728324402.jpg'
     )
   RETURNING product_id
 )
@@ -93,7 +93,7 @@ WITH ins AS (
       450,
       'Коллекционная кукла Monster High Operetta — уникальное издание создано для любителей стилей рокабилли и ретро. Оперетта, дочь легендарного Призрака Оперы, возвращается во всей своей красе. Эта необычная кукла восхищает изысканными деталями, отсылающими к эстетике пятидесятых годов, — ее характерным стилем, сочетающим винтажную элегантность с темной, жуткой атмосферой.',
       50,
-      'https://drive.google.com/file/d/1x-Ez1lbqReG5MAxQdgtR-Zzzk6Odubk8/view?usp=sharing'
+      'https://dollsfest.ru/pictures/product/big/10213_big.jpg'
     )
   RETURNING product_id
 )
