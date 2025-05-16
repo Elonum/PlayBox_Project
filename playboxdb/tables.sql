@@ -49,6 +49,7 @@ CREATE TABLE products (
     height_cm         INTEGER       NOT NULL CHECK (height_cm > 0),
     weight_g          INTEGER       NOT NULL CHECK (weight_g > 0),
     description       TEXT          NULL,
+    image_url         TEXT,
     quantity_in_stock INTEGER       NOT NULL CHECK (quantity_in_stock >= 0)
 );
 
