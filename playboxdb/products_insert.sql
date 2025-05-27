@@ -1,7 +1,3 @@
--- Добавление поля image_url
-ALTER TABLE products
-  ADD COLUMN IF NOT EXISTS image_url TEXT;
-
 -- 1) LEGO Harry Potter 76414
 WITH ins AS (
   INSERT INTO products
