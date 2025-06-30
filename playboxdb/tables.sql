@@ -43,12 +43,13 @@ CREATE TABLE users (
 CREATE TABLE products (
     product_id        SERIAL PRIMARY KEY,
     name              VARCHAR(150)  UNIQUE NOT NULL,
-    price             MONEY         NOT NULL,
+    price             NUMERIC(10,2) NOT NULL,
     color             VARCHAR(50)   NOT NULL,
     width_cm          INTEGER       NOT NULL CHECK (width_cm > 0),
     height_cm         INTEGER       NOT NULL CHECK (height_cm > 0),
     weight_g          INTEGER       NOT NULL CHECK (weight_g > 0),
     description       TEXT          NULL,
+    image_url         TEXT,
     quantity_in_stock INTEGER       NOT NULL CHECK (quantity_in_stock >= 0)
 );
 
